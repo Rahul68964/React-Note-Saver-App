@@ -1,0 +1,68 @@
+.card{
+    border: 1px black solid;
+    padding: 1rem;
+    width: 60vw;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    color: rgb(238, 238, 238);
+    transition: all 0.03s linear;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.button-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+    
+}
+#edit-button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#searchbar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#searchbar-real{
+    border-radius: 5px;
+    border: 2px gray solid;
+    padding: 5px;
+    width: 62vw;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#view-button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.buttons{
+    background-color: #198754;
+    border-radius: 5px;
+    padding: 8px;
+    color: aliceblue;
+    
+}
+.buttons:hover{
+    background-color: rgb(39, 149, 8);
+   
+}
+
+.link-button{
+    color: aliceblue;
+}
+

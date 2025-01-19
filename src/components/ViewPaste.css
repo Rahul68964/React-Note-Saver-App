@@ -1,0 +1,44 @@
+.textarea {
+    height: 65vh;
+    width: 62vw;
+    background-color: #e8e5e5;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.homeEle {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.input-title {
+    display: flex;
+    gap: 1rem;
+
+}
+
+#create-update-btn {
+    background-color: rgb(40, 152, 5);
+    border-radius: 5px;
+    color: aliceblue;
+    border: 0.5px gray solid;
+}
+
+#create-update-btn:hover {
+    background-color: rgb(34, 135, 4);
+}
+
+.title-input1 {
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px gray solid;
+    width: 62vw;
+
+}

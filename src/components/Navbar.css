@@ -1,0 +1,18 @@
+.navbar{
+    margin-top: 0%;
+    display: flex;
+    gap: 2rem;
+    width: 100vw;
+    height: 2.5rem;
+    font-family: Cursive;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(39,47,48,1) 0%, rgba(59,130,229,1) 97%);
+}
+
+.links{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
