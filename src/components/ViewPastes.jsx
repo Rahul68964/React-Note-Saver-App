@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import { useParams, useSearchParams } from 'react-router';
-import './viewPaste.css'
+import './ViewPaste.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { addToPaste, updateToPaste } from '../redux/pasteSlice';
 import toast from 'react-hot-toast';
